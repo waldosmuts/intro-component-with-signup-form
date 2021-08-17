@@ -16,7 +16,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: auto 0;
-  height: 100%;
+  min-height: 100%;
 }
 
 .header, .form-container {
@@ -167,5 +167,52 @@ button {
 @media screen and (max-width: 1200px) {
   .container {
     flex-direction: column;
+    justify-content: center;
+  }
+
+  .header {
+    max-width: 375px;
+    margin: 100px 0 40px 0;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0 1.5em;
+  }
+
+  h2 {
+    padding: 0 2em;
+    text-align: center;
+  }
+
+  .form-container {
+    max-width: 375px;
+  }
+
+  .form-header {
+    width: 340px;
+  }
+
+  h3 {
+    padding: 0 4em;
+  }
+
+  form {
+    width: 300px;
+    padding: 20px;
+  }
+
+  input:nth-of-type(1) {
+    margin-top: 0;
+  }
+
+  .terms {
+    margin-bottom: 0;
+    padding: 0 4em;
+  }
+
+  .attribution {
+    margin: 30px 0 10px 0;
   }
 }
