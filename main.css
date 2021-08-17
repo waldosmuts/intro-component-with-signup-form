@@ -113,8 +113,7 @@ input:focus {
   border: 2px solid hsl(0, 100%, 74%);
   background-image: url("images/icon-error.svg");
   background-repeat: no-repeat;
-  background-position-x: right 10px;
-  background-position-y: center;
+  background-position: center right 10px;
 }
 
 .invalid-input:focus {
